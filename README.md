@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.aayushya.net">site</a> ·
+  <a href="https://aayushya.net">site</a> ·
   <a href="https://github.com/ptlnextdoor/eeg-forecastability-limits">eeg-forecastability-limits</a> ·
   <a href="https://github.com/ptlnextdoor/kahlus-skills">kahlus-skills</a> ·
   <a href="https://github.com/ptlnextdoor/Recall">recall</a>
@@ -95,5 +95,5 @@ compiles clean and fails on real silicon), [mentra-eeg-miniapp](https://github.c
 
 <p align="center"><sub>
 IEEE ISEC 2026 (sole author) · ASME IMECE '25 · SCCUR '25 · NCUR '25, '26 · BMES Bay Area '26<br/>
-<a href="mailto:aayu22809@gmail.com">email</a> · <a href="https://www.aayushya.net">aayushya.net</a>
+<a href="mailto:aayu22809@gmail.com">email</a> · <a href="https://aayushya.net">aayushya.net</a>
 </sub></p>
