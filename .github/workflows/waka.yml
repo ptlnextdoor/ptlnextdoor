@@ -2,8 +2,9 @@ name: Waka Readme
 
 on:
   schedule:
-    # hourly
-    - cron: '0 * * * *'
+    # Daily at 08:00 UTC. Was hourly, which produced 24 skipped runs a day
+    # while the job stayed gated behind ENABLE_WAKA.
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 jobs:
