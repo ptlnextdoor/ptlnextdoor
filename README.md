@@ -4,12 +4,12 @@
 
 <p align="center">
   <b>Aayushya Patel</b> · Cupertino, CA<br/>
-  <sub>Founder <a href="https://github.com/ptlnextdoor/Kahlus-V1">@Kahlus</a> · Founders Inc. Canopy S26 · Stanford SIMR '26</sub>
+  <sub>Founder of Kahlus · Founders Inc. Canopy S26 · Stanford SIMR '26</sub>
 </p>
 
 <p align="center">
   <a href="https://aayushya.net">site</a> ·
-  <a href="https://github.com/ptlnextdoor/eeg-forecastability-limits">eeg-forecastability-limits</a> ·
+  <a href="https://github.com/ptlnextdoor/kahlus-bench">kahlus-bench</a> ·
   <a href="https://github.com/ptlnextdoor/kahlus-skills">kahlus-skills</a> ·
   <a href="https://github.com/ptlnextdoor/Recall">recall</a>
 </p>
@@ -49,35 +49,45 @@
 
 ### What I actually work on
 
-Neural forecasting, and the question of when a result is real. Most of my public
-work is a benchmark, a bound, or a negative result I could not talk myself out of.
-
-**[eeg-forecastability-limits](https://github.com/ptlnextdoor/eeg-forecastability-limits)** — How far
-ahead can you forecast raw scalp EEG? On BNCI2014_001 the standard task builds a target that shares
-**127 of its 128 samples with the input**, so the score is mostly copying. Rebuilt as a single strictly
-future sample: raw voltage reaches *r* = 0.885 at 4 ms, 0.176 by 256 ms, and is indistinguishable from
-guessing by ~1 s. Band-power envelopes are not — gamma still scores *r* = 0.44 at 8 seconds. Includes
-the correction to my own earlier README, which was measuring my regularisation choice, not the signal.
+Neural forecasting, and the question of when a result is real. Most of what I build is a benchmark,
+a bound, or a negative result I could not talk myself out of.
 
 **[kahlus-bench](https://github.com/ptlnextdoor/kahlus-bench)** · **[neuroforecast](https://github.com/ptlnextdoor/neuroforecast)** —
-Leakage-sealed benchmark and certified directed-information graphs for multi-organ neural coupling.
-Finite-sample certified, not asymptotic hand-waving.
+Leakage-sealed benchmark for neural-coupling claims, and certified directed-information graphs for
+multi-organ coupling. Finite-sample certified, not asymptotic hand-waving.
 
-**[Kahlus-V1](https://github.com/ptlnextdoor/Kahlus-V1)** — Leakage-controlled EEG forecasting harness.
-176 commits, 134 test files, six evidence gates. **Two gates are recorded as FAILED in committed
-artifacts**, because the point of a gate is knowing when the result isn't real.
+**[Recall](https://github.com/ptlnextdoor/Recall)** — Local second brain. One search box over files,
+Gmail, Calendar, Drive, Canvas, Notion. Sub-200 ms semantic search, nothing leaves the machine.
 
 **[kahlus-skills](https://github.com/ptlnextdoor/kahlus-skills)** — Agent skills for research artifacts
 a skeptical PI would believe. One rule across all five: every number reproduces from a named command,
 and scope is stated honestly.
 
-**[Recall](https://github.com/ptlnextdoor/Recall)** — Local second brain. One search box over files,
-Gmail, Calendar, Drive, Canvas, Notion. Sub-200 ms semantic search, nothing leaves the machine.
+**[hil-failure-modes](https://github.com/ptlnextdoor/hil-failure-modes)** — Six concrete failure modes
+where AI-generated embedded firmware compiles clean and fails on real silicon.
 
-Also: [hil-failure-modes](https://github.com/ptlnextdoor/hil-failure-modes) (where AI-written firmware
-compiles clean and fails on real silicon), [mentra-eeg-miniapp](https://github.com/ptlnextdoor/mentra-eeg-miniapp),
-[bambu-studio-safe-updater](https://github.com/ptlnextdoor/bambu-studio-safe-updater), and a
-[6-axis robot controller](https://github.com/ptlnextdoor/kahlus-robot-controller) spec for Teensy 4.1 + TMC5160.
+Also: [mentra-eeg-miniapp](https://github.com/ptlnextdoor/mentra-eeg-miniapp) (live EEG-derived
+cognitive-state readout on smart glasses) and
+[bambu-studio-safe-updater](https://github.com/ptlnextdoor/bambu-studio-safe-updater).
+
+---
+
+### Private, and the reason the rest of this reads the way it does
+
+Two repos below are private. I'd rather name them and say so than link a 404.
+
+**eeg-forecastability-limits** — How far ahead can you forecast raw scalp EEG? On BNCI2014_001 the
+standard task builds a target that shares **127 of its 128 samples with the input**, so the score is
+mostly copying. Rebuilt as a single strictly future sample: raw voltage reaches *r* = 0.885 at 4 ms,
+0.176 by 256 ms, and is indistinguishable from guessing by ~1 s. Band-power envelopes are not — gamma
+still scores *r* = 0.44 at 8 seconds. It also carries the correction to my own earlier README, which
+turned out to be measuring my regularisation choice rather than the signal.
+
+**Kahlus-V1** — Leakage-controlled EEG forecasting harness. 176 commits, 134 test files, six evidence
+gates. **Two gates are recorded as FAILED in committed artifacts**, because the point of a gate is
+knowing when the result isn't real.
+
+Happy to walk either through on request — [email](mailto:aayu22809@gmail.com).
 
 ---
 
