@@ -4,12 +4,12 @@
 
 <p align="center">
   <b>Aayushya Patel</b> · Cupertino, CA<br/>
-  <sub>Founder of Kahlus · Founders Inc. Canopy S26 · Stanford SIMR '26</sub>
+  <sub>Founder of <a href="https://github.com/ptlnextdoor/Kahlus-V1">Kahlus</a> · Founders Inc. Canopy S26 · Stanford SIMR '26</sub>
 </p>
 
 <p align="center">
   <a href="https://aayushya.net">site</a> ·
-  <a href="https://github.com/ptlnextdoor/kahlus-bench">kahlus-bench</a> ·
+  <a href="https://github.com/ptlnextdoor/Kahlus-V1">kahlus-v1</a> ·
   <a href="https://github.com/ptlnextdoor/kahlus-skills">kahlus-skills</a> ·
   <a href="https://github.com/ptlnextdoor/Recall">recall</a>
 </p>
@@ -52,6 +52,11 @@
 Neural forecasting, and the question of when a result is real. Most of what I build is a benchmark,
 a bound, or a negative result I could not talk myself out of.
 
+**[Kahlus-V1](https://github.com/ptlnextdoor/Kahlus-V1)** — Leakage-controlled EEG forecasting harness,
+the NeuroTwin research engine. 261 commits, 140 test files, six evidence gates. **Gates M3 and M4 are
+recorded as `gate_passed: false` in committed artifacts**, because the point of a gate is knowing when
+the result isn't real.
+
 **[kahlus-bench](https://github.com/ptlnextdoor/kahlus-bench)** · **[neuroforecast](https://github.com/ptlnextdoor/neuroforecast)** —
 Leakage-sealed benchmark for neural-coupling claims, and certified directed-information graphs for
 multi-organ coupling. Finite-sample certified, not asymptotic hand-waving.
@@ -74,7 +79,7 @@ cognitive-state readout on smart glasses) and
 
 ### Private, and the reason the rest of this reads the way it does
 
-Two repos below are private. I'd rather name them and say so than link a 404.
+One repo below is private. I'd rather name it and say so than link a 404.
 
 **eeg-forecastability-limits** — How far ahead can you forecast raw scalp EEG? On BNCI2014_001 the
 standard task builds a target that shares **127 of its 128 samples with the input**, so the score is
@@ -83,11 +88,7 @@ mostly copying. Rebuilt as a single strictly future sample: raw voltage reaches 
 still scores *r* = 0.44 at 8 seconds. It also carries the correction to my own earlier README, which
 turned out to be measuring my regularisation choice rather than the signal.
 
-**Kahlus-V1** — Leakage-controlled EEG forecasting harness. 176 commits, 134 test files, six evidence
-gates. **Two gates are recorded as FAILED in committed artifacts**, because the point of a gate is
-knowing when the result isn't real.
-
-Happy to walk either through on request — [email](mailto:aayu22809@gmail.com).
+Happy to walk it through on request — [email](mailto:aayu22809@gmail.com).
 
 ---
 
