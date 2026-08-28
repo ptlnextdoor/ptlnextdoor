@@ -52,10 +52,18 @@
 Neural forecasting, and the question of when a result is real. Most of what I build is a benchmark,
 a bound, or a negative result I could not talk myself out of.
 
-**[Kahlus-V1](https://github.com/ptlnextdoor/Kahlus-V1)** — Leakage-controlled EEG forecasting harness,
-the NeuroTwin research engine. 261 commits, 140 test files, six evidence gates. **Gates M3 and M4 are
-recorded as `gate_passed: false` in committed artifacts**, because the point of a gate is knowing when
-the result isn't real.
+The one to open first is **[Kahlus-V1](https://github.com/ptlnextdoor/Kahlus-V1)**: six evidence gates,
+and **M3 and M4 are committed as `gate_passed: false`**. The failures ship with the repo, because the
+point of a gate is knowing when the result isn't real.
+
+<p align="center">
+  <a href="https://github.com/ptlnextdoor/Kahlus-V1"><img width="46%" src="https://readme-sigma-ten.vercel.app/api/pin/?username=ptlnextdoor&repo=Kahlus-V1&theme=transparent" alt="Kahlus-V1"/></a>
+  <a href="https://github.com/ptlnextdoor/Recall"><img width="46%" src="https://readme-sigma-ten.vercel.app/api/pin/?username=ptlnextdoor&repo=Recall&theme=transparent" alt="Recall"/></a>
+  <a href="https://github.com/ptlnextdoor/kahlus-bench"><img width="46%" src="https://readme-sigma-ten.vercel.app/api/pin/?username=ptlnextdoor&repo=kahlus-bench&theme=transparent" alt="kahlus-bench"/></a>
+  <a href="https://github.com/ptlnextdoor/neuroforecast"><img width="46%" src="https://readme-sigma-ten.vercel.app/api/pin/?username=ptlnextdoor&repo=neuroforecast&theme=transparent" alt="neuroforecast"/></a>
+  <a href="https://github.com/ptlnextdoor/kahlus-skills"><img width="46%" src="https://readme-sigma-ten.vercel.app/api/pin/?username=ptlnextdoor&repo=kahlus-skills&theme=transparent" alt="kahlus-skills"/></a>
+  <a href="https://github.com/ptlnextdoor/hil-failure-modes"><img width="46%" src="https://readme-sigma-ten.vercel.app/api/pin/?username=ptlnextdoor&repo=hil-failure-modes&theme=transparent" alt="hil-failure-modes"/></a>
+</p>
 
 **[kahlus-bench](https://github.com/ptlnextdoor/kahlus-bench)** · **[neuroforecast](https://github.com/ptlnextdoor/neuroforecast)** —
 Leakage-sealed benchmark for neural-coupling claims, and certified directed-information graphs for
