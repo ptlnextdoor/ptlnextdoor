@@ -42,6 +42,19 @@ jobs:
               [ "$bytes" -gt 100 ] && code=200
             fi
 
+            # Card images answer 200 even when the repo is missing or private,
+            # and render "Repository Not found" into the SVG. Status alone
+            # cannot see that, so inspect the body.
+            case "$u" in
+              *readme-sigma-ten.vercel.app/api/pin/*)
+                if curl -s -L --max-time 25 -H 'User-Agent: Mozilla/5.0' "$u" \
+                   | grep -qiE 'not found|something went wrong'; then
+                  echo "CARD-BROKEN $u" >> dead.txt
+                  continue
+                fi
+                ;;
+            esac
+
             [ "$code" = "200" ] || echo "$code $u" >> dead.txt
           done < urls.txt
 
