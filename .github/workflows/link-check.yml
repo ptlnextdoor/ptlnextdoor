@@ -1,0 +1,73 @@
+name: Check README links
+
+on:
+  schedule:
+    # Daily at 08:30 UTC, just after the waka refresh.
+    - cron: '30 8 * * *'
+  push:
+    paths: ['README.md']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check every URL in README
+        id: check
+        run: |
+          set -uo pipefail
+          grep -oE 'https://[^"<>) ]+' README.md | sort -u > urls.txt
+          : > dead.txt
+          while read -r u; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' -L --max-time 25 \
+                   -H 'User-Agent: Mozilla/5.0' "$u" || echo 000)
+            # One retry: transient 000/5xx shouldn't open an issue.
+            if [ "$code" != "200" ]; then
+              sleep 5
+              code=$(curl -s -o /dev/null -w '%{http_code}' -L --max-time 25 \
+                     -H 'User-Agent: Mozilla/5.0' "$u" || echo 000)
+            fi
+            [ "$code" = "200" ] || echo "$code $u" >> dead.txt
+          done < urls.txt
+
+          if [ -s dead.txt ]; then
+            echo "Dead links:"; cat dead.txt
+            {
+              echo 'body<<EOF'
+              echo 'These URLs in `README.md` are not returning 200:'
+              echo
+              echo '```'
+              cat dead.txt
+              echo '```'
+              echo
+              echo 'A `404` on a `github.com/ptlnextdoor/*` link usually means that repo'
+              echo 'flipped to private. Either make it public again, or move it into the'
+              echo '"Private, and the reason the rest of this reads the way it does"'
+              echo 'section so visitors read a name instead of hitting a 404.'
+              echo EOF
+            } >> "$GITHUB_OUTPUT"
+            exit 1
+          fi
+          echo "All $(wc -l < urls.txt) URLs OK."
+
+      - name: Open an issue when links are dead
+        if: failure() && steps.check.outputs.body != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          existing=$(gh issue list --state open --label dead-link \
+                     --json number --jq '.[0].number' || true)
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "${{ steps.check.outputs.body }}"
+          else
+            gh label create dead-link --color d73a4a \
+              --description "README links returning non-200" 2>/dev/null || true
+            gh issue create --title "Dead links in profile README" \
+              --label dead-link --body "${{ steps.check.outputs.body }}"
+          fi
