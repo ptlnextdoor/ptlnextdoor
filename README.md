@@ -1,48 +1,66 @@
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ptlnextdoor&label=PROFILE%20VIEWS&color=0e75b6&style=for-the-badge"/>
-</p>
+<p align="center"><img src="assets/header.svg" width="100%" alt="Aayushya Patel, founder of Kahlus. Neural forecasting, and when a result is real. Building Kahlus, Founders Inc. Canopy S26, Stanford SIMR '26."></p>
+
+<table width="100%">
+  <tr>
+    <td valign="middle">
+      <a href="https://linkedin.com/in/patel-ji" title="LinkedIn"><img align="right" width="26" alt="LinkedIn" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"></a>
+      <a href="https://github.com/ptlnextdoor" title="GitHub"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff"><img align="right" hspace="6" width="26" alt="GitHub" src="https://cdn.simpleicons.org/github/000000"></picture></a>
+      <b>Hey, I'm Aayushya 👋</b> <sub>Cupertino, CA · <a href="https://aayushya.net">aayushya.net</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://aayushya.net"><img width="49%" src="assets/aayushya-net.webp" alt="aayushya.net: the AAYUSHYA split-flap title over the line Machines that heal, Systems that feed, Models that reason" /></a>
+      <a href="https://github.com/ptlnextdoor/kahlus-bench"><img width="49%" src="assets/kahlus-bench.webp" alt="kahlus-bench detection-power sweep: certified directed information, detection power and false-certify rate against true coupling" /></a>
+      <br />
+      <a href="https://github.com/ptlnextdoor/Recall"><img width="49%" src="assets/recall.webp" alt="Recall setup wizard: terminal screens for the Gemini key, folder choice and indexing progress" /></a>
+      <a href="https://github.com/ptlnextdoor/neuroforecast"><img width="49%" src="assets/neuroforecast.webp" alt="neuroforecast certified directed-information graph for multi-organ sleep data: EKG_HRV to EGG to EEG_sigma" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>languages</b><br />
+      <img src="https://img.shields.io/badge/-Python-111?style=flat-square&logo=python&logoColor=FFDE57"/>
+      <img src="https://img.shields.io/badge/-Rust-111?style=flat-square&logo=rust&logoColor=DEA584"/>
+      <img src="https://img.shields.io/badge/-C%2FC%2B%2B-111?style=flat-square&logo=cplusplus&logoColor=00599C"/>
+      <img src="https://img.shields.io/badge/-TypeScript-111?style=flat-square&logo=typescript&logoColor=3178C6"/>
+      <img src="https://img.shields.io/badge/-Java-111?style=flat-square&logo=openjdk&logoColor=ED8B00"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>ml / science</b><br />
+      <img src="https://img.shields.io/badge/-PyTorch-111?style=flat-square&logo=pytorch&logoColor=EE4C2C"/>
+      <img src="https://img.shields.io/badge/-NumPy-111?style=flat-square&logo=numpy&logoColor=4DABCF"/>
+      <img src="https://img.shields.io/badge/-pandas-111?style=flat-square&logo=pandas&logoColor=ffffff"/>
+      <img src="https://img.shields.io/badge/-Jupyter-111?style=flat-square&logo=jupyter&logoColor=F37626"/>
+      <img src="https://img.shields.io/badge/-SciPy-111?style=flat-square&logo=scipy&logoColor=8CAAE6"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>hardware / writing</b><br />
+      <img src="https://img.shields.io/badge/-Arduino-111?style=flat-square&logo=arduino&logoColor=00979D"/>
+      <img src="https://img.shields.io/badge/-Raspberry%20Pi-111?style=flat-square&logo=raspberrypi&logoColor=A22846"/>
+      <img src="https://img.shields.io/badge/-KiCad-111?style=flat-square&logo=kicad&logoColor=314CB0"/>
+      <img src="https://img.shields.io/badge/-LaTeX-111?style=flat-square&logo=latex&logoColor=008080"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>infra / tools</b><br />
+      <img src="https://img.shields.io/badge/-Docker-111?style=flat-square&logo=docker&logoColor=2496ED"/>
+      <img src="https://img.shields.io/badge/-Postgres-111?style=flat-square&logo=postgresql&logoColor=4169E1"/>
+      <img src="https://img.shields.io/badge/-DuckDB-111?style=flat-square&logo=duckdb&logoColor=FFF000"/>
+      <img src="https://img.shields.io/badge/-CUDA-111?style=flat-square&logo=nvidia&logoColor=76B900"/>
+      <img src="https://img.shields.io/badge/-macOS-111?style=flat-square&logo=apple&logoColor=ffffff"/>
+      <img src="https://img.shields.io/badge/-Vim-111?style=flat-square&logo=vim&logoColor=019733"/>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <b>Aayushya Patel</b> · Cupertino, CA<br/>
-  <sub>Founder of Kahlus · Founders Inc. Canopy S26 · Stanford SIMR '26</sub>
-</p>
-
-<p align="center">
-  <a href="https://aayushya.net">site</a> ·
-  <a href="https://github.com/ptlnextdoor/kahlus-bench">kahlus-bench</a> ·
-  <a href="https://github.com/ptlnextdoor/kahlus-skills">kahlus-skills</a> ·
-  <a href="https://github.com/ptlnextdoor/Recall">recall</a>
-</p>
-
-<p align="center">
-  <img src="https://readme-sigma-ten.vercel.app/api?username=ptlnextdoor&show_icons=true&theme=transparent&hide_title=true" alt="GitHub stats" />
-  <img src="https://readme-sigma-ten.vercel.app/api/top-langs/?username=ptlnextdoor&layout=compact&show_icons=true&theme=transparent" alt="Top Langs" />
-</p>
-
-<p align="center">
-  <img align="absmiddle" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" height="24"/>
-  <img align="absmiddle" src="https://cdn.simpleicons.org/rust/808080" alt="rust" height="24"/>
-  <img align="absmiddle" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cpp" height="24"/>
-  <img align="absmiddle" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" height="24"/>
-  <img align="absmiddle" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-plain.svg" alt="java" height="24"/>
-  &nbsp;&middot;&nbsp;
-  <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="pytorch" height="24"/>
-  <img align="absmiddle" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="numpy" height="24"/>
-  <img align="absmiddle" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" height="24"/>
-  <img align="absmiddle" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" alt="jupyter" height="24"/>
-  <img align="absmiddle" src="https://cdn.simpleicons.org/scipy/808080" alt="scipy" height="24"/>
-  &nbsp;&middot;&nbsp;
-  <img align="absmiddle" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg" alt="arduino" height="24"/>
-  <img align="absmiddle" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg" alt="raspberrypi" height="24"/>
-  <img align="absmiddle" src="https://cdn.simpleicons.org/kicad/808080" alt="kicad" height="24"/>
-  <img align="absmiddle" src="https://cdn.simpleicons.org/latex/808080" alt="latex" height="24"/>
-  &nbsp;&middot;&nbsp;
-  <img align="absmiddle" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" height="24"/>
-  <img align="absmiddle" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" height="24"/>
-  <img align="absmiddle" src="https://cdn.simpleicons.org/duckdb/808080" alt="duckdb" height="24"/>
-  <img align="absmiddle" src="https://cdn.simpleicons.org/nvidia/808080" alt="cuda" height="24"/>
-  <img align="absmiddle" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apple/apple-original.svg" alt="apple" height="24"/>
-  <img align="absmiddle" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vim/vim-original.svg" alt="vim" height="24"/>
+  <img src="assets/readme.svg" alt="Aayushya Patel on GitHub: contributions, streaks, top languages and merged pull requests into public repos with 50 or more stars" />
 </p>
 
 ---
@@ -51,15 +69,6 @@
 
 Neural forecasting, and the question of when a result is real. Most of what I build is a benchmark,
 a bound, or a negative result I could not talk myself out of.
-
-<p align="center">
-  <a href="https://github.com/ptlnextdoor/kahlus-bench"><img width="46%" src="https://readme-sigma-ten.vercel.app/api/pin/?username=ptlnextdoor&repo=kahlus-bench&theme=transparent" alt="kahlus-bench"/></a>
-  <a href="https://github.com/ptlnextdoor/Recall"><img width="46%" src="https://readme-sigma-ten.vercel.app/api/pin/?username=ptlnextdoor&repo=Recall&theme=transparent" alt="Recall"/></a>
-  <a href="https://github.com/ptlnextdoor/neuroforecast"><img width="46%" src="https://readme-sigma-ten.vercel.app/api/pin/?username=ptlnextdoor&repo=neuroforecast&theme=transparent" alt="neuroforecast"/></a>
-  <a href="https://github.com/ptlnextdoor/kahlus-skills"><img width="46%" src="https://readme-sigma-ten.vercel.app/api/pin/?username=ptlnextdoor&repo=kahlus-skills&theme=transparent" alt="kahlus-skills"/></a>
-  <a href="https://github.com/ptlnextdoor/hil-failure-modes"><img width="46%" src="https://readme-sigma-ten.vercel.app/api/pin/?username=ptlnextdoor&repo=hil-failure-modes&theme=transparent" alt="hil-failure-modes"/></a>
-  <a href="https://github.com/ptlnextdoor/mentra-eeg-miniapp"><img width="46%" src="https://readme-sigma-ten.vercel.app/api/pin/?username=ptlnextdoor&repo=mentra-eeg-miniapp&theme=transparent" alt="mentra-eeg-miniapp"/></a>
-</p>
 
 **[kahlus-bench](https://github.com/ptlnextdoor/kahlus-bench)** · **[neuroforecast](https://github.com/ptlnextdoor/neuroforecast)** —
 Leakage-sealed benchmark for neural-coupling claims, and certified directed-information graphs for

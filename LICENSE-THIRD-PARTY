@@ -1,0 +1,42 @@
+Third-party credits
+===================
+
+README layout (header table, 2x2 hero grid, labeled shields.io badge rows):
+  Kevin-Liu-01/Kevin-Liu-01, MIT licensed, full notice below.
+
+assets/header.svg and scripts/build_header.py (animated dithered aurora header
+and details grid): adapted from screen-gd/screen-gd scripts/build_profile.py.
+fonts/ holds Geist Mono and Geist Pixel under the SIL Open Font License (OFL.txt).
+
+scripts/generate_readme.py, scripts/generate-contribution-graph.py, tests/ and
+.github/workflows/readme-card.yml: adapted from krishhgg/krishhgg. The AI token
+spend and tool-stack panels were removed.
+
+screen-gd and krishhgg publish no license file. Their public profile repos
+were reused as models.
+
+----------------------------------------------------------------------------
+Kevin-Liu-01/Kevin-Liu-01 LICENSE
+----------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2026 Kevin B. Liu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
